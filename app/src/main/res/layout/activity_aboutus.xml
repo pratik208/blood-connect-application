@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+    <!-- Person 1 -->
+
+    <LinearLayout
+        android:id="@+id/person1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/person1Photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pratik"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/person1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratik Vitthal Patil"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/person1Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GR. NO - 20UGCS19780\nMOB - 7276322887\nT.Y.BTech - CSE"
+                android:inputType="textMultiLine"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/person1Layout"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Person 2 -->
+    <LinearLayout
+        android:id="@+id/person2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/line1"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/person2Photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/person2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarthak Sachin Patil"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/person2Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GR. NO - 20UGCS19776\nMOB - 9067404935\nT.Y.BTech - CSE"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/person2Layout"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Person 3 -->
+    <LinearLayout
+        android:id="@+id/person3Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/line2"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/person3Photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dig" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/person3Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digvijay Sanjay Mane"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/person3Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GR. NO - 20UGCS19741\nMOB - 8530264614\nT.Y.BTech - CSE"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_below="@+id/person3Layout"
+        android:layout_marginTop="25dp"
+        android:text="TATYASAHEB KORE INSTITUTE OF ENGINEERING AND TECHNOLOGY ,WARANANNAGAR KOLHAPUR"
+        />
+
+
+</RelativeLayout>
