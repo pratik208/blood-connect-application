@@ -11,3 +11,18 @@ For android the languages we are using are Java and XML.
 
 ## Tool
 #### Android Studio
+
+## ScreenShots
+Login Page                 |  Registration Page
+:-------------------------:|:-------------------------:
+![](Screenshot/login.jpg)  |  ![](Screenshot/signup.jpg)
+
+
+Dashboard Pag              |  Help to others  Page
+:-------------------------:|:-------------------------:
+![](Screenshot/dashboard.jpg)  |  ![](Screenshot/helptoothers.jpg)
+
+
+Search Page                |  Search Results Page
+:-------------------------:|:-------------------------:
+![](Screenshot/searchbycity.jpg)  |  ![](Screenshot/help.jpg)
