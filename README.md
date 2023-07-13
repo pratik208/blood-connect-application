@@ -15,7 +15,7 @@ For android the languages we are using are Java and XML.
 ## ScreenShots
 Login Page                 |  Registration Page
 :-------------------------:|:-------------------------:
-![](Screenshot/login.jpg)  |  ![](Screenshot/signup.jpg)
+![](login.jpg)  |  
 
 
 Dashboard Pag              |  Help to others  Page
