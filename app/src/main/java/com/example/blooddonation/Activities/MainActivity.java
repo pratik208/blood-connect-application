@@ -1,23 +1,17 @@
 package com.example.blooddonation.Activities;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.MenuItem;
+
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.Volley;
 import com.example.blooddonation.Adapters.RequestAdapter;
 import com.example.blooddonation.DataModels.RequestDataModel;
 import com.example.blooddonation.R;
@@ -60,17 +54,6 @@ public class MainActivity extends AppCompatActivity {
         requestAdapter = new RequestAdapter(requestDataModels, this);
         recyclerView.setAdapter(requestAdapter);
 
-     //   Toolbar toolbar = findViewById(R.id.toolbar);
-       /* toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                if (item.getItemId() == R.id.search_button) {
-                    startActivity(new Intent(MainActivity.this, SearchActivity.class));
-                    return true;
-                }
-                return false;
-            }
-        });*/
 
         TextView pickLocation = findViewById(R.id.pick_location);
         pickLocation.setOnClickListener(new View.OnClickListener() {

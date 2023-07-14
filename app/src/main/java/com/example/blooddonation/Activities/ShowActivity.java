@@ -9,10 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.blooddonation.R;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 
 public class ShowActivity extends AppCompatActivity {

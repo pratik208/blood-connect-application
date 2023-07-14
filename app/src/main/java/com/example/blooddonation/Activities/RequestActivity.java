@@ -1,9 +1,7 @@
 package com.example.blooddonation.Activities;
-import static com.example.blooddonation.Activities.LoginActivity.num;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
+
 import android.os.Bundle;
 
 import android.view.View;

@@ -84,18 +84,6 @@ public class LoginActivity extends AppCompatActivity {
                 if (!response.equals("Invalid Credentials")) {
                     Toast.makeText(LoginActivity.this, response, Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
-                    SharedPreferences sharedPreferencess = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-                    SharedPreferences.Editor editors = sharedPreferencess.edit();
-                    editors.putString("number", number);
-                    editors.apply();
-
-                    num=number;
-
-                    SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
-                    editor.putBoolean("isLoggedIn", true);
-                    editor.apply();
-
                     LoginActivity.this.finish();
                 } else {
                     Toast.makeText(LoginActivity.this, response, Toast.LENGTH_SHORT).show();

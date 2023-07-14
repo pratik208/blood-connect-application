@@ -3,7 +3,6 @@ package com.example.blooddonation.Activities;
 import static com.example.blooddonation.Utils.Endpoints.register_url;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.preference.PreferenceManager;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -15,7 +14,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
+
 import com.android.volley.Request.Method;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
@@ -71,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
                 if(response.equals("success")){
 
                     Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+                    startActivity(new Intent(RegisterActivity.this, DashboardActivity.class));
 
                    RegisterActivity.this.finish();
                 }else{

@@ -20,10 +20,11 @@ public class SplashScreen extends AppCompatActivity {
 
             // Check if the user has already logged in
 
-            SharedPreferences sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+            SharedPreferences sharedPreferences = getSharedPreferences("MyAppPrefs", MODE_PRIVATE);
             boolean isLoggedIn = sharedPreferences.getBoolean("isLoggedIn", false);
 
-            if (isLoggedIn) {
+
+            if (!isLoggedIn) {
 
                 startActivity(new Intent(SplashScreen.this, DashboardActivity.class));
                 finish();

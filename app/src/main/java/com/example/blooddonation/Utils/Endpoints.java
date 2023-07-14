@@ -7,4 +7,6 @@ public class Endpoints {
     public static final String login_url= base_url + "login.php" ;
     public static final String upload_request = base_url + "upload_request.php";
     public static final String searchcity = base_url + "searchcity.php";
+    public static final String deleterecord = base_url + "deleterecord.php";
+
 }

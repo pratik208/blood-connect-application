@@ -6,12 +6,10 @@ import android.os.Bundle;
 
 import com.example.blooddonation.R;
 import android.os.AsyncTask;
-import android.os.Bundle;
-import android.util.Log;
+
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,8 +21,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+
 public class SearchActivity extends AppCompatActivity {
     private static final String TAG = SearchActivity.class.getSimpleName();
 
