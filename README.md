@@ -28,8 +28,7 @@ Search by city             |  Make request Page
 
 Help to Others             |  DashBoard
 :-------------------------:|:-------------------------:
-![helptoothers](https://github.com/pratik208/blood-connect-application/assets/105504637/a790cefa-b351-471b-a725-f0a63fbd1ea3) |  ![dashboard](https://github.com/pratik208/blood-connect-application/assets/105504637/fce40b2e-fc74-4846-ba14-6af6888f12cb)
-
+![helptoothers](https://github.com/pratik208/blood-connect-application/assets/105504637/a790cefa-b351-471b-a725-f0a63fbd1ea3) |  ![dashboard](https://github.com/pratik208/blood-connect-application/assets/105504637/5154085d-147c-4c2e-8cf0-7c5ab533992e)
 
 
 
