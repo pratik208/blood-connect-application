@@ -18,40 +18,43 @@
         android:theme="@style/Theme.BloodDonation"
         tools:targetApi="31">
         <activity
-            android:name=".Activities.DeleteActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.LogoutActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.DeleteActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.HelpActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.LogoutActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.DashboardActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.HelpActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.SearchlocActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.DashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.Aboutus"
+            android:name="com.pratikpatil.blooddonation.Activities.SearchlocActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.ShowActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.Aboutus"
             android:exported="false" />
         <activity
-            android:name=".Activities.RequestActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.ShowActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.SearchActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.RequestActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.RegisterActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.SplashScreen"
+            android:name="com.pratikpatil.blooddonation.Activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pratikpatil.blooddonation.Activities.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,7 +63,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activities.MainActivity"
+            android:name="com.pratikpatil.blooddonation.Activities.MainActivity"
             android:exported="true" />
     </application>
 

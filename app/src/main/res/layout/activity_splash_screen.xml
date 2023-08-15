@@ -4,7 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/abcd"
-    tools:context=".Activities.SplashScreen">
+
+    tools:context="com.pratikpatil.blooddonation.Activities.SplashScreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/abb"
+
+    app:lottie_loop="true"
+
+    app:lottie_autoPlay="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

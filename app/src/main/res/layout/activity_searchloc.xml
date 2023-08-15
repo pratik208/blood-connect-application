@@ -6,7 +6,7 @@
     android:background="@drawable/back"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Activities.SearchlocActivity">
+    tools:context="com.pratikpatil.blooddonation.Activities.SearchlocActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

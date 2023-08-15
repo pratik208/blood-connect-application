@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".Activities.RegisterActivity">
+    tools:context="com.pratikpatil.blooddonation.Activities.RegisterActivity">
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -111,6 +112,10 @@
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+
     </LinearLayout>
+
+
 
 </ScrollView>

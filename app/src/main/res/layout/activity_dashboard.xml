@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F66161"
-    tools:context=".Activities.DashboardActivity">
+    tools:context="com.pratikpatil.blooddonation.Activities.DashboardActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -109,7 +109,31 @@
                     android:layout_gravity="center_horizontal" />
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/history"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@android:color/darker_gray"
+                android:layout_margin="10dp">
 
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/baseline_history_24"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/help"
@@ -190,6 +214,7 @@
                     android:layout_marginTop="130dp"
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
+
 
             <ImageView
                 android:layout_width="100dp"
